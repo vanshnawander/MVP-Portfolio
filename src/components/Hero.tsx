@@ -10,7 +10,7 @@ import StarsBackground from './StarsBackground';
 const Hero: React.FC = () => {
   return (
     <section id="home" className="relative min-h-screen flex items-center pt-20">    
-     
+      <StarsBackground />
 
 
       <div className="container-custom relative z-10">
