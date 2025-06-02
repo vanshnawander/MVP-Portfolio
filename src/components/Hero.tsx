@@ -49,6 +49,17 @@ const Hero: React.FC = () => {
             animate="visible"
             className="flex flex-col sm:flex-row gap-4"
           >
+
+            <Link
+              to="services"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+              className="btn-outline cursor-pointer"
+            >
+              Explore Services
+            </Link>
             <Link
               to="#"
               // spy={true}
@@ -64,18 +75,8 @@ const Hero: React.FC = () => {
                  * specify the rootElement property to ensure that the modal is inserted into the correct domNode.
                  */
                 rootElement={document.getElementById("root")!}
-                text="Schedule a Demo"
+                text="Book a Call"
               /> <ChevronRight className="ml-2 h-4 w-4" />
-            </Link>
-            <Link
-              to="services"
-              spy={true}
-              smooth={true}
-              offset={-100}
-              duration={500}
-              className="btn-outline cursor-pointer"
-            >
-              Explore Services
             </Link>
           </motion.div>
 
@@ -85,7 +86,7 @@ const Hero: React.FC = () => {
             initial="hidden"
             animate="visible"
             transition={{ delay: 0.6 }}
-            className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-20 w-full"
+            className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-20 w-full"
           >
             <div className="text-center">
               <p className="text-3xl md:text-4xl font-bold text-primary-500 dark:text-primary-400">50+</p>
@@ -99,10 +100,10 @@ const Hero: React.FC = () => {
               <p className="text-3xl md:text-4xl font-bold text-primary-500 dark:text-primary-400">30+</p>
               <p className="text-sm">Happy Clients</p>
             </div>
-            <div className="text-center">
+            {/* <div className="text-center">
               <p className="text-3xl md:text-4xl font-bold text-primary-500 dark:text-primary-400">3+</p>
               <p className="text-sm">Years Experience</p>
-            </div>
+            </div> */}
           </motion.div>
 
         </div>

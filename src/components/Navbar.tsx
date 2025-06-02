@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
 import { Menu, X, Moon, Sun, Laptop2 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { useTheme } from '../contexts/ThemeContext';
+// import { useTheme } from '../contexts/ThemeContext';
 import { cn } from '../utils/cn';
 
 const navLinks = [
@@ -17,7 +17,7 @@ const navLinks = [
 const Navbar: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const { theme, toggleTheme } = useTheme();
+  // const { theme, toggleTheme } = useTheme();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -90,7 +90,7 @@ const Navbar: React.FC = () => {
 
           {/* Mobile Menu Button */}
           <div className="flex items-center md:hidden">
-            <button
+            {/* <button
               onClick={toggleTheme}
               className="p-2 mr-2 rounded-full hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
               aria-label="Toggle dark mode"
@@ -100,7 +100,7 @@ const Navbar: React.FC = () => {
               ) : (
                 <Moon className="h-5 w-5" />
               )}
-            </button>
+            </button> */}
             <button
               onClick={toggleMobileMenu}
               className="p-2 rounded-md hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"

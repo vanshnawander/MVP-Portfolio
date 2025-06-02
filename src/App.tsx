@@ -10,14 +10,14 @@ import Footer from './components/Footer';
 
 import Background from './components/Background';
 
-import { ThemeProvider } from './contexts/ThemeContext';
+// import { ThemeProvider } from './contexts/ThemeContext';
 
 
 
 
 function App() {
   return (
-    <ThemeProvider>
+    <>
       <Navbar />
       <main>
         <Background />
@@ -29,7 +29,7 @@ function App() {
         <Contact />
       </main>
       <Footer />
-    </ThemeProvider>
+    </>
   );
 }
 

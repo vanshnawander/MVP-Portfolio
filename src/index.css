@@ -2,7 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
+.tw {
+  color: white !important;
+}
 @layer base {
   html {
     @apply scroll-smooth;
