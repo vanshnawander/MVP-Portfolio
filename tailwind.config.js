@@ -1,14 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
-  
+  darkMode: 'class',
   theme: {
     extend: {
       fontFamily: {
         inter: ['Outfit', 'sans-serif'],
       },
-
-      
       colors: {
         primary: {
           50: '#e6eaf1',
@@ -28,7 +26,7 @@ export default {
           200: '#a3d3eb',
           300: '#75bee0',
           400: '#47a8d6',
-          500: '#3E92CC', // secondary color
+          500: '#3E92CC',
           600: '#3275a3',
           700: '#25587a',
           800: '#193a52',
@@ -40,7 +38,7 @@ export default {
           200: '#f3b7af',
           300: '#ed9387',
           400: '#e7705f',
-          500: '#ED6A5A', // accent color
+          500: '#ED6A5A',
           600: '#be5548',
           700: '#8e4036',
           800: '#5f2a24',
@@ -52,7 +50,7 @@ export default {
           200: '#a1cfa7',
           300: '#72b77b',
           400: '#439f4f',
-          500: '#2E7D32', // success color
+          500: '#2E7D32',
           600: '#256428',
           700: '#1c4b1e',
           800: '#123214',
@@ -64,7 +62,7 @@ export default {
           200: '#f7d39e',
           300: '#f3bd6e',
           400: '#efa73d',
-          500: '#F39C12', // warning color
+          500: '#F39C12',
           600: '#c27d0e',
           700: '#925e0b',
           800: '#613e07',
@@ -76,7 +74,7 @@ export default {
           200: '#e79e9e',
           300: '#db6e6e',
           400: '#cf3d3d',
-          500: '#D32F2F', // error color
+          500: '#D32F2F',
           600: '#a92626',
           700: '#7f1c1c',
           800: '#541313',
@@ -107,5 +105,3 @@ export default {
   },
   plugins: [],
 };
-
-
