@@ -32,7 +32,7 @@ const SectionHeading: React.FC<SectionHeadingProps> = ({
       {subtitle && (
         <motion.p 
           variants={fadeInUp}
-          className="text-slate-600 dark:text-slate-400 max-w-3xl mx-auto"
+          className="dark:white max-w-3xl mx-auto"
         >
           {subtitle}
         </motion.p>
