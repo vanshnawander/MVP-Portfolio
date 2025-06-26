@@ -41,7 +41,7 @@ const SectionHeading: React.FC<SectionHeadingProps> = ({
       <motion.div 
         variants={fadeInUp}
         className={cn(
-          'h-1 w-16 bg-primary-500 mt-4',
+          'h-1 w-16 bg-primary-400 mt-4',
           centered && 'mx-auto'
         )}
       />
