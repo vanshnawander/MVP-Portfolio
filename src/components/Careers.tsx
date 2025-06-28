@@ -9,7 +9,7 @@ import {
   List, 
   ArrowUpRight 
 } from 'lucide-react';
-import Section from './ui/Section';
+import Section from './ui/Section'; 
 import SectionHeading from './ui/SectionHeading';
 import { JobPosition } from '../types';
 import { staggerContainer, fadeInUp } from '../utils/animations';
@@ -113,7 +113,7 @@ const Careers: React.FC = () => {
               
               <div className="flex justify-center mt-4">
                 <button 
-                  className="flex items-center text-sm text-primary-500 dark:text-primary-400"
+                  className="flex items-center text-sm text-primary-500 dark:text-secondary-500"
                   onClick={(e) => {
                     e.stopPropagation();
                     toggleJob(job.id);

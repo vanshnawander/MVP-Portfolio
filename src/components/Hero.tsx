@@ -89,16 +89,19 @@ const Hero: React.FC = () => {
             className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-20 w-full"
           >
             <div className="text-center">
-              <p className="text-3xl md:text-4xl font-bold text-primary-500 dark:text-primary-400">50+</p>
-              <p className="text-sm">Projects Completed</p>
+              <p className="text-5xl md:text-5xl font-bold text-primary-500 dark:text-primary-200">50+</p>
+              {/* <p className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-purple-300 via-gray-100 to-purple-400 bg-clip-text text-transparent leading-[1.2] inline-block">50+</p> */}
+              <p className="text-md">Projects Completed</p>
             </div>
             <div className="text-center">
-              <p className="text-3xl md:text-4xl font-bold text-primary-500 dark:text-primary-400">15+</p>
-              <p className="text-sm">Technologies</p>
+              <p className="text-5xl md:text-5xl font-bold text-primary-500 dark:text-primary-200">15+</p>
+              {/* <p className="text-5xl md:text-5xl font-bold bg-gradient-to-r from-purple-300 via-gray-100 to-purple-400 bg-clip-text text-transparent leading-[1.2] inline-block">15+</p> */}
+              <p className="text-md">Technologies</p>
             </div>
             <div className="text-center">
-              <p className="text-3xl md:text-4xl font-bold text-primary-500 dark:text-primary-400">30+</p>
-              <p className="text-sm">Happy Clients</p>
+              <p className="text-5xl md:text-5xl font-bold text-primary-500 dark:text-primary-200">30+</p>
+              {/* <p className="text-5xl md:text-5xl font-bold bg-gradient-to-r from-purple-300 via-gray-100 to-purple-400 bg-clip-text text-transparent leading-[1.2] inline-block">30+</p> */}
+              <p className="text-md">Happy Clients</p>
             </div>
             {/* <div className="text-center">
               <p className="text-3xl md:text-4xl font-bold text-primary-500 dark:text-primary-400">3+</p>
@@ -109,7 +112,7 @@ const Hero: React.FC = () => {
         </div>
 
         {/* Scroll down indicator */}
-        <motion.div
+        {/* <motion.div
           className="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex flex-col items-center"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -122,7 +125,7 @@ const Hero: React.FC = () => {
         >
           <span className="text-sm mb-2">Scroll Down</span>
           <ArrowDown className="h-5 w-5" />
-        </motion.div>
+        </motion.div> */}
       </div>
     </section>
   );

@@ -134,7 +134,7 @@ const About: React.FC = () => {
       
       {/* Team Section */}
       <div className="mt-24">
-        <h3 className="text-2xl font-bold text-center mb-12">Meet Our Founders</h3>
+        {/* <h3 className="text-2xl font-bold text-center mb-12">Meet Our Founders</h3>
         
         <motion.div
           ref={teamRef}
@@ -200,7 +200,7 @@ const About: React.FC = () => {
               </div>
             </motion.div>
           ))}
-        </motion.div>
+        </motion.div> */}
         
         {/* Hiring Banner */}
         <motion.div
